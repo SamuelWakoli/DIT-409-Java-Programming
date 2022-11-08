@@ -1,4 +1,4 @@
-package assignment_one;
+package exercise_one;
 
 /**
  * Samuel Wakoli
@@ -7,7 +7,7 @@ package assignment_one;
 
 import java.util.Scanner;
 
-public class AssignmentOne {
+public class ExOne {
 
     public static void main(String[] args) {
 
