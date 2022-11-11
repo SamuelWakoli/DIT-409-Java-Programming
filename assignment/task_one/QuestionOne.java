@@ -1,7 +1,4 @@
-package task_one;
-
-import java.util.Scanner;
-
+package assignment.task_one;
 /*
  * Write a Java program that asks the user to enter their sir name and 
  * current age then print the number of characters of their sir name 
@@ -12,6 +9,8 @@ import java.util.Scanner;
  * then the number of characters is 6.
  * Your current age is an odd number.
  */
+
+import java.util.Scanner;
 
 public class QuestionOne {
     
@@ -51,7 +50,7 @@ public class QuestionOne {
 
             //output
             System.out.println("\nThe number of characters in your sir name is : " + sirNameLength);
-            System.out.println("Your age is an " + oddEven + " number.");
+            System.out.println("Your current age is an " + oddEven + " number.");
         }
     }
 }

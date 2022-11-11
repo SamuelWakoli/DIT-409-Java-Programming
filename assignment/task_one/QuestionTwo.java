@@ -1,4 +1,4 @@
-package task_one;
+package assignment.task_one;
 
 import java.util.Scanner;
 
@@ -32,7 +32,9 @@ public class QuestionTwo {
             var unitFive = myInput.nextDouble();
 
             //getting average mark by calling [getAverage()] and assigning it to a variable
-            var average = getAverage(unitOne, unitTwo, unitThree, unitFour, unitFive);
+            var average = unitOne + unitTwo + unitThree + unitFour + unitFive;
+            average = average / 5;
+            average = Math.round(average * 100.0) / 100.0;
 
             //Outputting the [average]
             System.out.println("\nAverage mark : " + average);
